@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #222;
+    margin: 0;
+    padding: 30px;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+h1 {
+    text-align: center;
+    color: #5a2d0c;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #5a2d0c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7a4215;
+}
+
+#message {
+    color: darkred;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#lootList {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #999;
+    min-height: 80px;
+}
+
+#totalValue {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #1f4d1f;
+}
